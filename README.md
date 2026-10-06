@@ -100,7 +100,7 @@ Two Telegram connections run side by side in one process:
 ### 2. Install
 
 ```bash
-git clone https://github.com/Anfildboy/telegram-dm-assistant.git
+git clone https://github.com/Parsa-dude/telegram-dm-assistant.git
 cd telegram-dm-assistant
 python3 -m venv venv
 ./venv/bin/pip install -r requirements.txt
@@ -313,6 +313,6 @@ python tests/test_offline.py     # takes about a second
 ## Author
 
 **Parsa Rahmani** — Python developer; Telegram bots, automation and AI integration.
-[parsa-projects.ir](https://parsa-projects.ir) · [GitHub](https://github.com/Anfildboy)
+[parsa-projects.ir](https://parsa-projects.ir) · [GitHub](https://github.com/Parsa-dude)
 
 If this project is useful to you, a ⭐ helps other people find it.
