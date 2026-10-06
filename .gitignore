@@ -1,0 +1,15 @@
+# Secrets and private data — never commit these
+.env
+*.session
+*.session-journal
+*.db
+*.db-wal
+*.db-shm
+*.log
+*.log.*
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
