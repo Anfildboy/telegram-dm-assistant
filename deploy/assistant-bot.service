@@ -1,0 +1,21 @@
+# systemd unit — keeps the assistant running 24/7 and restarts it after a crash or reboot.
+#
+#   1. Replace /opt/telegram-dm-assistant with the folder you cloned the project into.
+#   2. Run the bot once by hand first (it asks for your keys and logs in to Telegram).
+#   3. sudo cp deploy/assistant-bot.service /etc/systemd/system/
+#      sudo systemctl daemon-reload && sudo systemctl enable --now assistant-bot
+#   4. Live log:  journalctl -u assistant-bot -f
+
+[Unit]
+Description=Telegram DM Assistant
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+WorkingDirectory=/opt/telegram-dm-assistant
+ExecStart=/opt/telegram-dm-assistant/venv/bin/python assistant_bot.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
