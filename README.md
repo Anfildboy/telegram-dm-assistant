@@ -126,7 +126,11 @@ Telegram DM Assistant — راه‌اندازی اولیه | first-run setup
 ```
 
 Telegram then asks for your phone number, the login code and (if enabled) your two-step password.
-When you see `Running as <your name> … panel: @your_bot → /start` in the log, it is working.
+When this line appears in the log, it is working:
+
+```text
+Running as Sam (id=…) | panel: @your_bot → /start | admins: […]
+```
 
 ### 4. Finish the setup in the panel
 
