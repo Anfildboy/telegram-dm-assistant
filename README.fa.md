@@ -108,7 +108,7 @@ flowchart TD
 <div dir="ltr">
 
 ```bash
-git clone https://github.com/Anfildboy/telegram-dm-assistant.git
+git clone https://github.com/Parsa-dude/telegram-dm-assistant.git
 cd telegram-dm-assistant
 python3 -m venv venv
 ./venv/bin/pip install -r requirements.txt
@@ -349,7 +349,7 @@ python tests/test_offline.py     # takes about a second
 ## سازنده
 
 **پارسا رحمانی** — توسعه‌دهنده‌ی پایتون؛ ربات تلگرام، اتوماسیون و اتصال هوش مصنوعی.
-[parsa-projects.ir](https://parsa-projects.ir) · [GitHub](https://github.com/Anfildboy)
+[parsa-projects.ir](https://parsa-projects.ir) · [GitHub](https://github.com/Parsa-dude)
 
 اگر این پروژه به کارتان آمد، یک ⭐ کمک می‌کند دیگران هم پیدایش کنند.
 
